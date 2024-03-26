@@ -1,0 +1,26 @@
+{
+  "name": "@joytest/test-case-runner",
+  "version": "1.0.0",
+  "description": "Test case runner implementation.",
+  "author": "Anio Software <info@anio.software>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joytest-org/test-case-runner.git"
+  },
+  "exports": {
+    ".": "./build/package.mjs",
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {
+    "@anio-js-foundation/error-object-to-string": "^2.0.0",
+    "@vipen/target-js": "^0.9.0",
+    "vipen": "^0.1.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/vipen ."
+  },
+  "files": [
+    "./build/package.mjs"
+  ]
+}
