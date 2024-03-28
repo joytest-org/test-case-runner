@@ -1,6 +1,6 @@
 {
   "name": "@joytest/test-case-runner",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Test case runner implementation.",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
